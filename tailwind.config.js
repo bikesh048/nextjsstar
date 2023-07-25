@@ -9,15 +9,15 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1rem",
+      padding: "2rem",
     },
     colors: {
       current: "currentColor",
       transparent: "transparent",
       white: "#FFFFFF",
-      black: "#090E34",
-      dark: "#1D2144",
-      primary: "#4A6CF7",
+      black: "#072c2f",
+      dark: "#182f4c",
+      primary: "#008b94",
       yellow: "#FBB040",
       "body-color": "#959CB1",
     },

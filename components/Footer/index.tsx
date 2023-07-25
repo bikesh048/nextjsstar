@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+              {/* <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="images/logo/logo-2.svg"
@@ -90,7 +90,14 @@ const Footer = () => {
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> */}
+              <div
+      className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
+      data-wow-delay=".2s"
+    >
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.487730685217!2d85.35132047650426!3d27.671316676203173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19dd9ab5f023%3A0xfb5b95c81c444381!2sASIA%20OPTICS%20CHASMA%20PASAL!5e0!3m2!1sen!2snp!4v1690293085450!5m2!1sen!2snp" className="responsive-iframe" loading="lazy" ></iframe>
+
+    </div>
             </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
@@ -205,10 +212,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-primary/10 py-8">
+        <div className="py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+            © 2023 akshitara
             </p>
           </div>
         </div>

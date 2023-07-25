@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Prescription Sunglasses" />
+                    <List text="Contact Lenses" />
+                    <List text="Computer Glasses" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Fancy Sunglasess" />
+                    <List text="Prescription Glasses" />
+                    <List text="Progressive Glasses" />
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/about-image.jpg"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full lg:mr-0"
