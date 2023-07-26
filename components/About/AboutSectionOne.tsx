@@ -19,7 +19,7 @@ const AboutSectionOne = () => {
 
   return (
     <section id="about">
-      <div className="container pt-44 pb-24">
+      <div className="container py-24">
         {/* <div className=" border-b border-body-color/[.15] dark:border-white/[.15]"> */}
           <div className=" -mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
