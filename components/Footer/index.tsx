@@ -10,7 +10,7 @@ const Footer = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-6/12">
               {/* <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
@@ -91,19 +91,17 @@ const Footer = () => {
                   </a>
                 </div>
               </div> */}
-              <div
-      className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
-      data-wow-delay=".2s"
-    >
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.487730685217!2d85.35132047650426!3d27.671316676203173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19dd9ab5f023%3A0xfb5b95c81c444381!2sASIA%20OPTICS%20CHASMA%20PASAL!5e0!3m2!1sen!2snp!4v1690293085450!5m2!1sen!2snp" className="responsive-iframe" loading="lazy" ></iframe>
-
-    </div>
+              <div className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11" data-wow-delay=".2s">
+                <div className="aspect-w-32 aspect-h-9 text-center">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.487730685217!2d85.35132047650426!3d27.671316676203173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19dd9ab5f023%3A0xfb5b95c81c444381!2sASIA%20OPTICS%20CHASMA%20PASAL!5e0!3m2!1sen!2snp!4v1690293085450!5m2!1sen!2snp" className="responsive-iframe" loading="lazy" ></iframe>
+                </div>
+              </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+            <div className="w-full px-4 md:w-1/2 lg:w-8/12 xl:w-6/12">
+              <div className="mb-12 lg:mb-16 text-center">
+                <h2 className="mb-5 text-xl font-bold text-black dark:text-white">
+                  Contact Us
                 </h2>
                 <ul>
                   <li>
@@ -112,7 +110,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Blog{" "}
+                      Madhyapur Thimi, Lokanthali, Hospital Ko side ma {" "}
                     </a>
                   </li>
                   <li>
@@ -121,7 +119,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Pricing{" "}
+                      01-45678239{" "}
                     </a>
                   </li>
                   <li>
@@ -130,14 +128,14 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      service@akshitara.com.np{" "}
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -209,7 +207,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="py-8">
