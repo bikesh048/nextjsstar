@@ -212,7 +212,7 @@ const Footer = () => {
         </div>
         <div className="py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
+            <p className="text-base text-body-color dark:text-white">
             © 2023 akshitara
             </p>
           </div>

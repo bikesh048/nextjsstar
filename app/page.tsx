@@ -20,9 +20,8 @@ export default function Home() {
       {/* <Hero /> */}
       <AboutSectionOne />
       <Features />
-      {/* <Video /> */}
+       {/* <Video /> */}
       {/* <Brands /> */}
-      
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
       {/* <Blog /> */}

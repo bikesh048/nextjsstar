@@ -18,14 +18,14 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28 py-16">
-      <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
+    <section id="about">
+      <div className="container pt-44 pb-24">
+        {/* <div className=" border-b border-body-color/[.15] dark:border-white/[.15]"> */}
+          <div className=" -mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="See the World in a New Light: Unleash Your Style with Our Eyewear!"
+                paragraph="Welcome to our premier eyewear shop, where fashion meets function to enhance your vision and elevate your style. We believe that eyewear is not just about practicality; it's an expression of individuality and personality. Step inside our store, and you'll be greeted by an extensive collection of frames carefully curated to cater to every taste and preference. From timeless classics to the latest trendsetters, we have something to suit every face shape, age, and lifestyle."
                 mb="44px"
               />
 
@@ -64,7 +64,7 @@ const AboutSectionOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 };
