@@ -92,9 +92,7 @@ const Footer = () => {
                 </div>
               </div> */}
               <div className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11" data-wow-delay=".2s">
-                <div className="aspect-w-32 aspect-h-9 text-center">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.487730685217!2d85.35132047650426!3d27.671316676203173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19dd9ab5f023%3A0xfb5b95c81c444381!2sASIA%20OPTICS%20CHASMA%20PASAL!5e0!3m2!1sen!2snp!4v1690293085450!5m2!1sen!2snp" className="responsive-iframe" loading="lazy" ></iframe>
-                </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.487730685217!2d85.35132047650426!3d27.671316676203173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19dd9ab5f023%3A0xfb5b95c81c444381!2sASIA%20OPTICS%20CHASMA%20PASAL!5e0!3m2!1sen!2snp!4v1690293085450!5m2!1sen!2snp" className="responsive-iframe rounded-md w-full h-full" loading="lazy" ></iframe>
               </div>
             </div>
 
