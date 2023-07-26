@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  experimental: {
+    images: true
+  },
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -21,7 +24,7 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: "1rem",
+      padding: "2rem",
     },
     colors: {
       current: "currentColor",
