@@ -56,7 +56,7 @@ const AboutSectionOne = () => {
               > */}
                 <div className="wow fadeInUp relative z-10 rounded-md aspect-[25/24] bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11" data-wow-delay=".2s">
                 <Image
-                  src="/images/about/about-image.jpg"
+                  src="./images/about/about-image.jpg"
                   alt="about-image"
                   fill
                   className="object-contain p-2 rounded-md w-full h-full"
