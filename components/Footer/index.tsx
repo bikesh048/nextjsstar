@@ -211,7 +211,7 @@ const Footer = () => {
         <div className="py-8">
           <div className="container">
             <p className="text-base text-body-color dark:text-white">
-            © 2023 akshitara
+            © 2023 akshitara chasma ghar
             </p>
           </div>
         </div>
