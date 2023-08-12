@@ -1,3 +1,7 @@
+# changes 
+Need to deploy push to different repository for differnt deployment 
+
+
 # Startup - Free Next.js Startup Website Template
 
 Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
